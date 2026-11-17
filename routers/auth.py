@@ -32,7 +32,7 @@ oauth2_schema = OAuth2PasswordBearer(
 )
 
 
-# REGISTER USER
+# REGISTER USER Details
 
 @router.post(
     "/register",

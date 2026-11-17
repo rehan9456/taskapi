@@ -183,8 +183,6 @@ def patch_task(
             detail="Failed to update task"
         )
 
-
-
 @router.get("/page/",response_model=list[TaskResponse])
 def get_paginate_tasks(
     skip: int = Query(default=0 , ge=0),
